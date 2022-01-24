@@ -53,7 +53,7 @@ That's it!
 
 ## Test the App
 
-The consumer app is secured using JWT auth, so to test it you need to use the [OIDC Debugger](oauth2/default) project to generate a valid JWT.
+The app is secured using JWT auth, so to test it you need to use the [OIDC Debugger](oauth2/default) project to generate a valid JWT.
 
 Once you have a valid JWT, store it in a Bash shell.
 ```bash
