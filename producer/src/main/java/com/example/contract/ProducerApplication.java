@@ -19,9 +19,9 @@ public class ProducerApplication {
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             http.authorizeRequests()
-                    .anyRequest().authenticated()
-                    .and()
-                    .oauth2ResourceServer().jwt(); // replace .jwt() with .opaqueToken() for Opaque Token case
+                .anyRequest().authenticated()
+                .and()
+                .oauth2ResourceServer().jwt(); // replace .jwt() with .opaqueToken() for Opaque Token case
         }
     }
 }
